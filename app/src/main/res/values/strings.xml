@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoldenDict Friend</string>
+    <string name="dict_goldendict">GoldenDict</string>
+    <string name="goldendict_not_installed">GoldenDict not installed</string>
+    <string name="cannot_start_dictionary">can\'t start dictionary</string>
+    <string name="what_s_it">What\'s it ?</string>
+    <string name="intro_what_it_is_explanation">On Android 6.0+, select a word, it helps send the word to GoldenDict.</string>
+    <string name="intro_how_to_use_it">How to use it ?</string>
+    <string name="intro_how_to_use_it_explanation">Select a word, and in the popup menu, click rightmost three vertical dots, scroll down, select GOLDENDICT</string>
+</resources>
