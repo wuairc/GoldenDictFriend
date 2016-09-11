@@ -1,9 +1,7 @@
 package run.yang.app.goldendictfriend.processtext.entrance;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -12,7 +10,6 @@ import run.yang.app.goldendictfriend.processtext.GoldenDictProcessor;
 import run.yang.app.goldendictfriend.processtext.bean.ProcessTextInputBean;
 
 
-@TargetApi(Build.VERSION_CODES.M)
 public class GoldenDictForwardActivity extends Activity {
 
     @Override
