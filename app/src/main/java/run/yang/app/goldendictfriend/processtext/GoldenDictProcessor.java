@@ -8,8 +8,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 import run.yang.app.goldendictfriend.R;
+import run.yang.app.goldendictfriend.app.ContextHolder;
 import run.yang.app.goldendictfriend.processtext.bean.ProcessTextInputBean;
-import run.yang.app.goldendictfriend.processtext.util.app.ContextHolder;
 
 /**
  * Created by ty on 9/10/16.

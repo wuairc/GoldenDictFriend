@@ -1,4 +1,4 @@
-package run.yang.app.goldendictfriend.processtext.entrance;
+package run.yang.app.goldendictfriend.entrance;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,7 +8,6 @@ import android.widget.Toast;
 import run.yang.app.goldendictfriend.R;
 import run.yang.app.goldendictfriend.processtext.GoldenDictProcessor;
 import run.yang.app.goldendictfriend.processtext.bean.ProcessTextInputBean;
-
 
 public class GoldenDictForwardActivity extends Activity {
 

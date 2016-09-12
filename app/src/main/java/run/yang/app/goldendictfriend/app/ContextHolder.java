@@ -1,4 +1,4 @@
-package run.yang.app.goldendictfriend.processtext.util.app;
+package run.yang.app.goldendictfriend.app;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
