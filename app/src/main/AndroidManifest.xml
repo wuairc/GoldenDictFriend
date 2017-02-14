@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="run.yang.app.goldendictfriend">
+          package="run.yang.app.goldendictfriend">
 
     <application
         android:name=".app.App"
@@ -12,9 +12,9 @@
 
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
@@ -24,9 +24,15 @@
             android:label="@string/menu_action_dict_goldendict"
             android:theme="@android:style/Theme.NoDisplay">
             <intent-filter android:label="@string/menu_action_dict_goldendict">
-                <action android:name="android.intent.action.PROCESS_TEXT" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="text/plain" />
+                <action android:name="android.intent.action.PROCESS_TEXT"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <!-- Allowing your activity to be added to other menus (https://developer.android.com/guide/topics/ui/menus.html#AllowingToAdd) -->
+                <category android:name="android.intent.category.ALTERNATIVE"/>
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE"/>
+
+                <data android:mimeType="text/plain"/>
             </intent-filter>
         </activity>
     </application>
