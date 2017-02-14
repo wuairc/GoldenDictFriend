@@ -5,12 +5,12 @@ android {
             "Dropbox/development/android/keystore/")
     def keyStorePropFile = new File(keyStoreFileDir, "yang.run.keystore.properties")
 
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
     defaultConfig {
         applicationId "run.yang.app.goldendictfriend"
         minSdkVersion 23
-        targetSdkVersion 24
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -63,5 +63,5 @@ dependencies {
     })
     testCompile 'junit:junit:4.12'
 
-    compile 'com.android.support:support-annotations:24.2.0'
+    compile 'com.android.support:support-annotations:25.1.1'
 }
