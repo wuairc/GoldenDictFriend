@@ -40,8 +40,7 @@ android {
                 println "using yang.run's key"
                 signingConfig signingConfigs.release
             } else {
-                logger.log(LogLevel.ERROR, "ERROR: use debug key in release build")
-                signingConfig signingConfigs.debug
+                throw new ProjectConfigurationException("Release Key not specified")
             }
         }
 
